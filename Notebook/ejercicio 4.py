@@ -6,6 +6,7 @@ def verificar_multiplos(numero):
     print("¿Es", numero, "múltiplo de 9?", numero % 9 == 0)
     print("¿Es", numero, "múltiplo de 10?", numero % 10 == 0)
     print("¿Es", numero, "múltiplo de 11?", numero % 11 == 0)
+    print("funco")
 
 numero_dado = 30
 verificar_multiplos(numero_dado)
