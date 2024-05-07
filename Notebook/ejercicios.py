@@ -1,5 +1,5 @@
 # Temperatura en Celsius
-temperatura_celsius = 70
+temperatura_celsius = 60
 
 # Convertir Celsius a Fahrenheit
 temperatura_fahrenheit = temperatura_celsius * 9/5 + 32
