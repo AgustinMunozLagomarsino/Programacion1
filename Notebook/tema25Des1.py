@@ -5,4 +5,4 @@ nombre = input("Por favor, ingresa tu nombre: ")
 ciudad_origen = input("Ahora, por favor ingresa tu ciudad de origen: ")
 
 # y aca imprimo el saludo personalizado 
-print("Buenas,", nombre + "Bienvenido a la ciudad de", ciudad_origen +"!" )
+print("Buenas,", nombre , "Bienvenido a ", ciudad_origen +"!" )
