@@ -1,6 +1,5 @@
 import datetime
 
-
 #Establecemos colores para ser usados luego en la consola y asi mostrar resultados en distinto colores
 AZUL = '\033[94m'
 VERDE = '\033[92m'
@@ -14,7 +13,7 @@ SUBRAYADO = '\033[4m'
 productos = ['Banana', 'Manzana', 'Peras']
 #Establecemos los precios que van a tener cada uno de ellos, creamos otra lista en la cual pondremos los precios
 #en el mismo orden que la lista de productos para que coincidan los indices
-precios = [14.56, 21.45, 39.25];
+precios = [14.56, 21.45, 39.25]
 
 #Definimos una funcion que nos liste los posibles productos a ser comprados
 #De esta manera podemos reutilizar el codigo en caso de ser necesario
