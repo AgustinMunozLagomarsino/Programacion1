@@ -1,3 +1,8 @@
+
+#Desafío 3: Simulación de una Carrera de Autos
+#Vas a simular una carrera de autos. Cada auto tiene una velocidad aleatoria (puedes usar la biblioteca random de Python) y cada ciclo del bucle representa un segundo de la carrera. Al final de cada segundo, cada auto avanza una distancia igual a su velocidad. La carrera dura 10 segundos. Al final de la carrera, debes imprimir el auto ganador. Si hay un empate, debes imprimir todos los autos que empataron.
+
+#Nota: Este desafío puede requerir que aprendas sobre conceptos adicionales, por ejemplo cómo generar números aleatorios.
 import random
 
 # Número de autos en la carrera
