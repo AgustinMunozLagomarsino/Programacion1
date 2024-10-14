@@ -118,12 +118,12 @@ def eliminar_multa(id_prestamo):
     multas.remove(multa)
     print(f"Multa asociada al préstamo con ID '{id_prestamo}' eliminada.")
 
-# Ejemplos de uso
-registrar_libro("El Quijote", "Cervantes", "Clásico", 3, 101)
-registrar_libro("1984", "George Orwell", "Distopía", 5, 102)
-registrar_usuario("Luis Gómez", 201)
-registrar_prestamo(101, 201, "2024-05-01", "2024-05-15", 301)
-registrar_multa(301, 40)
+# Ejemplos 
+registrar_libro("El Señor de los anillos", "J. R. R. Tolkien", "Clásico", 15, 501)
+registrar_libro("Pedro picapiedra ", "Agustin Muñiz", "Fantasia", 50000, 902)
+registrar_usuario("Domingo Muñoz", 201)
+registrar_prestamo(501, 201, "2024-05-01", "2024-05-15", 301)
+registrar_multa(301, 4000)
 
 # Mostrar datos actuales
 print("\nLibros en el sistema:")
@@ -143,7 +143,7 @@ for multa in multas:
     print(f"ID Préstamo: {multa['ID Prestamo']}, Monto: {multa['Monto']}, ID Usuario: {multa['ID Usuario']}")
 
 # Eliminar elementos
-eliminar_libro(101)
+eliminar_libro(501)
 eliminar_prestamo(301)
 eliminar_usuario(201)
 eliminar_multa(301)
