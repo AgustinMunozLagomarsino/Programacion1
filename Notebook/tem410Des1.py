@@ -164,3 +164,4 @@ for prestamo in prestamos:
 print("\nMultas después de eliminar:")
 for multa in multas:
     print(f"ID Préstamo: {multa['ID Prestamo']}, Monto: {multa['Monto']}, ID Usuario: {multa['ID Usuario']}")
+print("este trabajo fue realizado con ayuda de Anthony martinelli")

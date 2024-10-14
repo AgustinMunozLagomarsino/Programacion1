@@ -68,3 +68,4 @@ agregar_heroe("Ninja", 90, 28, "Ataque sorpresa", "Espada larga")
 # Mostrar los héroes y armas actualizados
 listar_heroes()
 listar_armas()
+print("este trabajo fue realizado con ayuda de Anthony martinelli")
