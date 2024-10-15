@@ -1,5 +1,3 @@
-
-
 # Inicializar listas vacías para almacenar los héroes y las armas
 heroes = []
 inventario_armas = []
