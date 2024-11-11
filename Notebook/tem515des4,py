@@ -1,0 +1,23 @@
+def sumar_listas(lista1, lista2):
+    # Determina la longitud máxima de ambas listas
+    longitud_maxima = max(len(lista1), len(lista2))
+    
+    # Rellena las listas con ceros hasta que tengan la misma longitud
+    lista1.extend([0] * (longitud_maxima - len(lista1)))
+    lista2.extend([0] * (longitud_maxima - len(lista2)))
+    
+    # Suma los elementos correspondientes de ambas listas
+    suma = [lista1[i] + lista2[i] for i in range(longitud_maxima)]
+    return suma
+
+# Listas de ejemplo
+lista1 = [1, 2, 3, 4]
+lista2 = [10, 20, 30]
+
+# Muestra las listas originales
+print("Lista 1:", lista1)
+print("Lista 2:", lista2)
+
+# Suma las listas y muestra el resultado
+resultado = sumar_listas(lista1, lista2)
+print("Suma de listas:", resultado)
