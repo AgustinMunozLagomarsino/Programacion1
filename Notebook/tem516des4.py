@@ -12,16 +12,16 @@ def ordenar_por_promedio(estudiantes):
 
 # Lista de estudiantes y sus promedios
 estudiantes = [
-    ("Ana", 85),
-    ("Carlos", 90),
-    ("Daniel", 78),
-    ("Esteban", 92),
-    ("Fernanda", 88),
-    ("Juan", 79),
-    ("Laura", 95),
-    ("María", 80),
-    ("Pedro", 91),
-    ("Sofía", 87)
+    ("Ana", 8),
+    ("Carlos", 9),
+    ("Daniel", 7),
+    ("Esteban", 9.5),
+    ("Fernanda", 8.8),
+    ("Juan", 7.9),
+    ("Laura", 12),
+    ("María", 10),
+    ("Pedro", 11),
+    ("Sofía", 2)
 ]
 
 # Ordenar la lista de estudiantes por promedio (de mayor a menor)
